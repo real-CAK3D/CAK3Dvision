@@ -1,0 +1,23 @@
+{
+  "warnAt": 0.8,
+  "providers": {
+    "tomtom": {
+      "block": true,
+      "limits": {
+        "tiles": {
+          "day": 6000,
+          "month": null
+        }
+      }
+    },
+    "worldnewsapi": {
+      "block": true,
+      "limits": {
+        "reads": {
+          "day": 30,
+          "month": null
+        }
+      }
+    }
+  }
+}
